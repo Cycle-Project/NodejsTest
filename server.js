@@ -6,7 +6,7 @@ const connectDB = require('./config/db');
 
 // load environment  vars
 
-dotenv.config({path: './config/config.env'});
+//dotenv.config({path: './config/config.env'});
 
 //Connect to Database
 connectDB();
