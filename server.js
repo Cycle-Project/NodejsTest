@@ -24,7 +24,7 @@ app.use('/api/users', require('./routes/users'));
 
 app.use('/api/stores', require('./routes/stores'));
 
-app.get("/", (req, res) => {
+app.get("/welcome", (req, res) => {
     res.json({ message: "Welcome to fatihin application." });
   });
 
